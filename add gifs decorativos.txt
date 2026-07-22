@@ -1,0 +1,20 @@
+/* GIFs no canto inferior direito */
+#gifs {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: row; /* agora ficam lado a lado */
+  gap: 12px;           /* espaço entre eles */
+}
+
+#gifs img {
+  width: 120px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+#gifs img:hover {
+  transform: scale(1.15);
+}
